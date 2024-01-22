@@ -6,7 +6,7 @@ Prism.languages.penrose = {
 	'comment': /(?:\/\*[\s\S]*?\*\/|--.*)/,
 	'keyword': /\b(?:All|AutoLabel|Label|Let|NoLabel|for|in|where)\b/,
 	'operator': /:=|>=|<=|>|<|==|\\|&&|!|\+|\*|-|%|\/|mod|=/,
-	'function': /\$.*\$/,
+	'function': /\$.*?\$/,
 	'number': {
 		pattern: /\b[+-]?(?:\d+(?:\.\d*)?(?:[eE][+-]?\d+)?|\.\d+(?:[eE][+-]?\d+)?)\b/,
 		lookbehind: true
